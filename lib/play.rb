@@ -39,7 +39,7 @@ end
 def play(board)
 
   player = "X"
-  do i in (1..9)
+  for i in (1..9) do
     turn(board)
     if player == "X"
       player = "O"
